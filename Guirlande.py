@@ -6,7 +6,7 @@ class Guirlande(Decoration):
         self._longueur = longueur
 
     def getLongueur(self):
-        return self._longueur
+        return self._longueurs
 
     def affiche(self):
         print("Guirlande de couleur",self._couleur,"de masse",self._masse,"g et de longueur", self._longueur,"cm")
